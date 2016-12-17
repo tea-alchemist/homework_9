@@ -1,5 +1,9 @@
 @media (max-width: 479px) and (min-width: 320px) {
 
+body {
+  overflow: hidden;
+}
+
 .h-wrp {
   height: 489px;
 }
