@@ -181,7 +181,7 @@ body {
 .slider__controls {
   position: absolute;
   bottom: -115px;
-  right: 355px;
+  left: 70%;
 }
 
 .company {
@@ -485,7 +485,7 @@ body {
 .categories__category {
   display: inline-block;
   width: 278px;
-  margin-left: 59.8px;px;
+  margin-left: 51.8px;
   padding-top: 75px;
   padding-bottom: 95px;
 }

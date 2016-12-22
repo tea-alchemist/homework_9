@@ -1,9 +1,5 @@
 @media (max-width: 479px) and (min-width: 320px) {
 
-body {
-  overflow: hidden;
-}
-
 .h-wrp {
   height: 489px;
 }
@@ -25,9 +21,7 @@ body {
 
 .nav {
   position: absolute;
-  display: flex;
   visibility: hidden;
-  flex-direction: column;
   width: 245px;
   right: 50%;
   margin-right:-122px;
@@ -199,22 +193,12 @@ body {
   margin-top: 16px;
 }
 
-.centering-320 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 15px;
-  padding-left: 42px;
-  padding-right: 30px;
-}
-
 .brands__link--b1 {
   margin-left: 20px;
 }
 
 .brands__link--b2 {
   margin-left: 20px;
-  margin-right: 32px;
 }
 
 .brands__link--b3 {
@@ -224,7 +208,7 @@ body {
 
 .brands__link--b4 {
   margin-top: 60px;
-  margin-right: 41px;
+  margin-right: 27px;
   margin-left: 0;
 }
 
@@ -250,13 +234,17 @@ body {
 }
 
 .main-footer__navi {
-  width: 298px;
+  width: auto;
+}
+
+.navi__nav--footer-480 {
+  width: auto;
 }
 
 .main-footer__copyright {
   position: absolute;
-  left: 38%;
-  right: 73px;
+  left: 50%;
+  margin-left: -60px;
   bottom: 40px;
 }
 

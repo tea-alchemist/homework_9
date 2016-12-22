@@ -146,6 +146,7 @@
 
 .posts {
   width: 43.6%;
+  display: block;
 }
 
 .posts__more--desktop {
@@ -208,13 +209,16 @@
   width: 96.5%;
   padding-top: 40px;
   margin-left: 20px;
-  margin-bottom: 86px;
+  margin-bottom: 35px;
   box-sizing: border-box;
+}
+
+.nav__item--footer-pdng {
+  margin-left: 41px;
 }
 
 .main-footer__copyright {
   position: absolute;
-  right: 3px;
-  bottom: 81px;
-
+  right: 50px;
+  bottom: 10px;
 }
